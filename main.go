@@ -11,5 +11,5 @@ func main() {
 		json.NewEncoder(w).Encode(map[string]string{"message": "Hello From CICD Pipeline!"})
 	})
 
-	http.ListenAndServe(":8000", nil)
+	http.ListenAndServe(":8080", nil)
 }
